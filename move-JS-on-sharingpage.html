@@ -1,0 +1,13 @@
+<div id="codeyouwant"></div>
+
+<div id="whereyouwantit"></div>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+	var contents = $('#codeyouwant')[0];
+	console.log(contents);
+	$("#whereyouwantit").append(contents);
+});
+</script>
+
+<!--This is used when you have to add something via header/body JS, but then need to move it somewhere else on the page. Example, a form-->
